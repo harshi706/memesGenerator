@@ -1,0 +1,108 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head{
+  position: absolute;
+width: 100%;
+height: 65px;
+left: 0px;
+top: 0px;
+background: linear-gradient(rgb(175, 213, 229),black);
+}
+.meme{
+  position: absolute;
+width: 140.79px;
+height: 24px;
+left: 58px;
+top: 10px;
+color: white;
+font-size: 1.5rem;
+line-height: 24px;
+letter-spacing: -0em;
+}
+.mn{
+  margin-top: 100px;
+}
+button{
+  display: block;
+  font-size: medium;
+  margin-top: 10px;
+  margin-left: 40%;
+  width: 15%;
+  height: 40px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+}
+.box input{
+  width: 40%;
+  height: 30px;
+  line-height: 2rem;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.button:hover {
+  background-color: white;
+  color: #672280;
+}
+.btns{
+  text-align: center;
+}
+.counter--count{
+  font-size: 2rem;
+}
+.meimg{
+  max-width: 100%;
+  margin-left: 40px;
+} 
+*{
+  box-sizing: border-box;
+}
+.boxes{
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.box input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.meimg {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+
+.meme--text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.meme--text.top {
+  top: 50%;
+}
+
+.meme--text.bottom {
+  bottom: -35%;
+}
+
